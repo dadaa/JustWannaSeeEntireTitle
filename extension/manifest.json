@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "JustWannaSeeEntireTitle",
+  "version": "0.0",
+  "description": "I just wanna see entire title in Gmail",
+  "permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/mail/*"],
+      "css": ["content.css"]
+    }
+  ]
+}

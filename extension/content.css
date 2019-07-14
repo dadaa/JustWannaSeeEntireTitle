@@ -1,0 +1,34 @@
+tr.zA {
+  position: relative;
+  padding-bottom: 24px;
+}
+
+td.xW {
+  display: block !important;
+}
+
+/* title */
+span.bog {
+  white-space: normal;
+}
+
+/* toolbox */
+td.bq4 {
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+  background-color: #d7d7db;
+  z-index: 1;
+}
+
+/* content snippet */
+span.y2 {
+  position: absolute;
+  bottom: 0;
+}
+
+.zA > .yf, /* icon */
+span.aKS /* button */
+{
+  display: none !important;
+}
